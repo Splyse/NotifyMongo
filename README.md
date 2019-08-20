@@ -1,4 +1,5 @@
-## NotifyMongo - a neo-cli plugin to convert smart contract notifications into MongoDB inserts/deletes
+## NotifyMongo
+A neo-cli plugin to convert smart contract notifications into MongoDB inserts/deletes
 
 ### Introduction
 This plugin allows a smart contract author to synchronize an external database to their smart contract state, using only smart contract notification messages. This allows information to be more readily available to a dApp without having to query the smart contract over RPC, and empowers the dApp's API backend with capabilities such as pagination, sorting and filtering using familiar noSQL expressions.
